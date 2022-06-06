@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  margin: auto;
+}
+
+h1 {
+  color: red;
+}
+
+#cristalBallImg {
+  width: 5rem;
+}
