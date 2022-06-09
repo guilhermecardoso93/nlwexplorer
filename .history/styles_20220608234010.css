@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: auto;
+  background-color: black;
+  color: antiquewhite;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 5rem;
+  width: 20rem;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.principal input {
+  width: 17rem;
+  height: 1.5rem;
+  text-align: center;
+
+  border: 1px solid plum;
+  border-radius: 0.2rem;
+}
+
+.principal input:hover {
+  border: 2px double pink;
+}
+
+#cristalBallImg {
+  width: 10rem;
+}

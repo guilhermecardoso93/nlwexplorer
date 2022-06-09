@@ -11,39 +11,23 @@ body {
   font-family: sans-serif;
 }
 
-h1 {
-  margin-top: 35px;
-  margin-bottom: 10px;
-  opacity: 0.9;
-}
-
-p {
-  margin-bottom: 40px;
-  opacity: 0.7;
-}
-
 #cristalBallImg {
   width: 10rem;
 }
 
 .principal {
+  display: flex;
+  flex-direction: column;
   margin: auto;
   margin-top: 5rem;
   max-width: 400px;
   width: 80%;
   align-items: center;
-}
-
-.principal input,
-button {
-  display: block;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-  width: 100%;
+  gap: 0.5rem;
 }
 
 .principal input {
+  width: 18rem;
   height: 3rem;
   text-align: center;
 
@@ -56,6 +40,7 @@ button {
 }
 
 button {
+  width: 18rem;
   height: 3rem;
   text-align: center;
   font-weight: 600;
@@ -64,16 +49,10 @@ button {
   border: 1px solid plum;
   border-radius: 0.2rem;
   margin-top: 0.5rem;
-  cursor: pointer;
-  box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px,
-    rgba(255, 251, 251, 0.3) 0px 30px 60px -30px,
-    rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
-    transition: filter 0.7s;
-}
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(255, 251, 251, 0.3) 0px 30px 60px -30px, rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;}
 
 button:hover {
-  filter: brightness(1.1);
-  box-shadow: rgb(85, 91, 255) 0px 0px 0px 1px,
-    rgb(255, 255, 255) 0px 0px 0px 2px, rgb(8, 23, 153) 0px 0px 0px 3px,
-    rgb(60, 11, 100) 0px 0px 0px 4px, rgb(108, 57, 228) 0px 0px 0px 5px;
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 1px, rgb(255, 255, 255) 0px 0px 0px 2px,
+    rgb(8, 23, 153) 0px 0px 0px 3px, rgb(60, 11, 100) 0px 0px 0px 4px,
+    rgb(108, 57, 228) 0px 0px 0px 5px;
 }

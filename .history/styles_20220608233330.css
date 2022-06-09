@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: auto;
+background-color: black;
+}
+
+main .principal{
+ display: flex;
+ flex-direction: column;
+ margin: auto;
+ margin-top: 5rem;
+ width: 20rem;
+}
+
+h1 {
+  color: red;
+}
+
+#cristalBallImg {
+  width: 5rem;
+}

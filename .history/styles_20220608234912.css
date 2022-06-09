@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: auto;
+  background-color: black;
+  color: antiquewhite;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#cristalBallImg {
+  width: 10rem;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 5rem;
+  max-width: 400px;
+  width: 80%;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.principal input {
+  width: 18rem;
+  height: 3rem;
+  text-align: center;
+
+  border: 1px solid plum;
+  border-radius: 0.2rem;
+}
+
+.principal input:hover {
+  border: 2px double pink;
+}
+
+button {
+  width: 18rem;
+  height: 3rem;
+  text-align: center;
+  font-weight: 600;
+  color: aliceblue;
+  background-color: rgb(137, 22, 214);
+  border: 1px solid plum;
+  border-radius: 0.2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+button:hover {
+  
+}
