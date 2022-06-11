@@ -23,18 +23,13 @@ const respostas = [
 const respostaCampo = document.querySelector("#resposta");
 const perguntaDigitada = document.querySelector("#inputPergunta");
 
-function fazerPergunta() {
-  if (perguntaDigitada.value == "") {
-    alert("Digite um pergunta");
-    return;
-  }
 
-  const pergunta = `<div> ${perguntaDigitada.value}</div>`;
+function fazerPergunta() {
+  if(perguntaDigitada.value == ''){
+     alert('Digite um pergunta')
+     return
+  }
   const totalRespostas = respostas.length;
   const numeroAleatorio = Math.floor(Math.random() * totalRespostas);
-  respostaCampo.innerHTML = pergunta + respostas[numeroAleatorio];
-
-  setTimeout(function () {
-    respostaCampo.style.opacity = 0;
-  }, 3000);
+  respostaCampo.innerHTML = respostas[numeroAleatorio];
 }
